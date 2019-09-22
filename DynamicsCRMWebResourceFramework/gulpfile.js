@@ -70,9 +70,9 @@ gulp.task("bundle-forms-and-ribbons", function (done) {
     gulp.start(["bundle"], done);
 });
 
-gulp.task("CRMLibrary", function (done) {
+gulp.task("CRMJSFramework", function (done) {
     basePath = "./Libraries/";
-    subPath = "CRMLibrary";
+    subPath = "CRMJSFramework";
     gulp.start(["bundle"], done);
 });
 
@@ -178,8 +178,8 @@ gulp.task("bundle", function (done) {
 });
 
 //Release
-gulp.task("CRMLibrary", function (done) {
+gulp.task("CRMJSFramework", function (done) {
     basePath = "./Libraries/";
-    subPath = "CRMLibrary";
+    subPath = "CRMJSFramework";
     gulp.start(["bundle"], done);
 });
