@@ -815,6 +815,10 @@
     <Content Include="Scripts\libraries\Silverlight.js" />
     <Content Include="Scripts\libraries\tablet.jquery.1.7.2.min.js" />
     <Content Include="Scripts\polyFills.js" />
+    <Content Include="SDK\ErrorHandler.js" />
+    <Content Include="SDK\FormLibrary\Context.js" />
+    <Content Include="SDK\WebAPI\WebApiActionRequest.js" />
+    <Content Include="SDK\WebAPI\WebApiRequests.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\libraries\bootstrapjavascriptslib\bootstrap.bundle.js.map" />
     <Content Include="Scripts\libraries\bootstrapjavascriptslib\bootstrap.bundle.min.js.map" />
@@ -866,9 +870,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SDK\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\free-jqGrid\ts\free-jqgrid.d.ts" />
     <TypeScriptCompile Include="Scripts\libraries\bootstrapjavascriptslib\index.d.ts" />
