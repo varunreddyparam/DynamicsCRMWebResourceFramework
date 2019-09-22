@@ -72,14 +72,7 @@ class XrmClient {
     }
 }
 
-const FormFactors = {
-    Unknown: "Unknown",
-    Desktop: "Desktop",
-    Tablet: "Tablet",
-    Phone: "Phone"
-};
-
-class UserDetail() {
+class UserDetail {
 
     constructor() {
         this.UserId = null;
@@ -112,3 +105,11 @@ class UserDetail() {
 
     }
 }
+
+const FormFactors = {
+    Unknown: "Unknown",
+    Desktop: "Desktop",
+    Tablet: "Tablet",
+    Phone: "Phone"
+};
+

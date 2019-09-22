@@ -121,8 +121,6 @@ window.gulls.odata.Request = class {
                 },
             error: sync &&
                 function (jqXhr, textStatus, errorThrown) { self._handleError(jqXhr, textStatus, errorThrown); },
-            data: jsonEntity,
-            contentType: "application/json; charset=utf-8",
             headers: { Accept: "application/json", "X-HTTP-Method": "MERGE", Prefer: "odata.include-annotations=OData.Community.Display.V1.FormattedValue" },
             dataType: 'json'
         });
@@ -232,7 +230,7 @@ window.gulls.odata.Request = class {
 
         return dfd.promise();
     }
-}
+};
 
 
 window.gulls.odata.webapi = class {
@@ -338,5 +336,5 @@ window.gulls.odata.webapi = class {
                 //Add handling of error that occurred
             });
     }
-}
+};
 

@@ -71,7 +71,7 @@ gulp.task("bundle-forms-and-ribbons", function (done) {
 });
 
 gulp.task("CRMJSFramework", function (done) {
-    basePath = "./Libraries/";
+    basePath = "./Library/";
     subPath = "CRMJSFramework";
     gulp.start(["bundle"], done);
 });
@@ -179,7 +179,7 @@ gulp.task("bundle", function (done) {
 
 //Release
 gulp.task("CRMJSFramework", function (done) {
-    basePath = "./Libraries/";
+    basePath = "./Library/";
     subPath = "CRMJSFramework";
     gulp.start(["bundle"], done);
 });
