@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ClientGlobalContext.js.aspx.cs" Inherits="ClientGlobalContext" %>

@@ -1,0 +1,38 @@
+{
+  "name": "javascripts",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "gulls",
+  "bin": {
+    "package-name": "./bin/package-name"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exec": "^2.1.3",
+    "gulp-minify": "0.0.15",
+    "gulp-uglify": "^2.1.2",
+    "gulp-webpack": "^1.5.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "dependencies": {
+    "core-js": "^3.0.0-beta.3",
+    "es6-symbol": "^3.1.1",
+    "js-sha256": "^0.9.0",
+    "localforage": "^1.7.2",
+    "natives": "^1.1.6"
+  }
+}

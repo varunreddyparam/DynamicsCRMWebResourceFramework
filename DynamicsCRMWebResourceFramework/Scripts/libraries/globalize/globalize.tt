@@ -1,0 +1,5 @@
+﻿<#@ output extension=".js" #>
+<#@ include file="globalize.0.1.1.js" #>
+<#@ include file="cultures\globalize.culture.de.js" #>
+<#@ include file="cultures\globalize.culture.en-US.js" #>
+<#@ include file="globalize.plugin.js" #>
