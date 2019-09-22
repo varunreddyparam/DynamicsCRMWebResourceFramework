@@ -73,6 +73,7 @@
     <Content Include="ClientGlobalContext.js.aspx" />
     <Content Include="Content\ui.jqgrid.css" />
     <Content Include="Content\ui.jqgrid.min.css" />
+    <Content Include="gulp.js" />
     <Content Include="Scripts\free-jqGrid\i18n\grid.locale-ar.js" />
     <Content Include="Scripts\free-jqGrid\i18n\grid.locale-bg.js" />
     <Content Include="Scripts\free-jqGrid\i18n\grid.locale-bs.js" />

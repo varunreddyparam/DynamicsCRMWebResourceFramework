@@ -4,3 +4,4 @@
 
 /DynamicsCRMWebResourceFramework/node_modules
 *.lock
+/DynamicsCRMWebResourceFramework/bin
