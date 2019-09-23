@@ -1,10 +1,11 @@
-﻿const xrm = window.Xrm || window.parent.Xrm;
-const gulls = window.gulls;
-var xrmpage = xrm.Page;
-var xrmcontext = xrmpage.context;
+﻿
+debugger;
+const xrm = window.Xrm || window.parent.Xrm;
+var xrmpage = xrm.Utility;
+var xrmcontext = xrmpage.getGlobalContext();
 
 
-class CrmContext {
+module.exports = class CrmContext {
     constructor() {
         this.xrmClient = new XrmClient();
     }
@@ -112,4 +113,3 @@ const FormFactors = {
     Tablet: "Tablet",
     Phone: "Phone"
 };
-

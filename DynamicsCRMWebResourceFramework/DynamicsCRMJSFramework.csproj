@@ -73,6 +73,7 @@
     <Content Include="ClientGlobalContext.js.aspx" />
     <Content Include="Content\ui.jqgrid.css" />
     <Content Include="Content\ui.jqgrid.min.css" />
+    <Content Include="Credentials.txt" />
     <Content Include="gulpfile.js" />
     <Content Include="Scripts\free-jqGrid\i18n\grid.locale-ar.js" />
     <Content Include="Scripts\free-jqGrid\i18n\grid.locale-bg.js" />
@@ -390,6 +391,10 @@
     <Content Include="Scripts\jquery.jqGrid.min.js" />
     <Content Include="Scripts\knockout-3.5.0.debug.js" />
     <Content Include="Scripts\knockout-3.5.0.js" />
+    <Content Include="_project\TestingScript\TestigScript.html" />
+    <Content Include="_project\TestingScript\TestingScript.bundled.min.js" />
+    <Content Include="_project\TestingScript\TestingScript.bundling.js" />
+    <Content Include="_project\TestingScript\TestingScript.js" />
     <Content Include="_sdk\libraries\babel-polyfill\polyfill.js" />
     <Content Include="_sdk\libraries\bootstrapjavascriptslib\bootstrap.bundle.js" />
     <Content Include="_sdk\libraries\bootstrapjavascriptslib\bootstrap.bundle.min.js" />
@@ -872,9 +877,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_project\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\free-jqGrid\ts\free-jqgrid.d.ts" />
     <TypeScriptCompile Include="_sdk\libraries\bootstrapjavascriptslib\index.d.ts" />

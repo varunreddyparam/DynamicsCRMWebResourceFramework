@@ -16,7 +16,7 @@ var lintSchema = "!(*.script|*.bundle|*.GeneratedObject|*.script.min|*.bundling|
 var shouldMinify = true;
 
 
-
+//DEBUG
 gulp.task("bundle-all-no-lint", function (done) {
     basePath = "././";
     subPath = ".";
@@ -70,9 +70,15 @@ gulp.task("bundle-forms-and-ribbons", function (done) {
     gulp.start(["bundle"], done);
 });
 
-gulp.task("CRMJSFramework", function (done) {
+gulp.task("debug_CRMJSFramework", function (done) {
     basePath = "./Library/";
     subPath = "CRMJSFramework";
+    gulp.start(["bundle"], done);
+});
+
+gulp.task("debug_TestingScript", function (done) {
+    basePath = "./_project/";
+    subPath = "TestingScript";
     gulp.start(["bundle"], done);
 });
 
@@ -181,5 +187,11 @@ gulp.task("bundle", function (done) {
 gulp.task("CRMJSFramework", function (done) {
     basePath = "./Library/";
     subPath = "CRMJSFramework";
+    gulp.start(["bundle"], done);
+});
+
+gulp.task("TestingScript", function (done) {
+    basePath = "./_project/";
+    subPath = "TestingScript";
     gulp.start(["bundle"], done);
 });
